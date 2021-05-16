@@ -22,8 +22,8 @@ const clockTime = () => {
     const minutes = date.getMinutes();
     const seconds = date.getSeconds();
 
-    const day = date.getDay();
-    const month = date.getMonth();
+    const day = date.getDate();
+    const month = date.getMonth() + 1;
     const year = date.getFullYear();
 
     displayClock.innerHTML = clockHTML(hours, minutes, seconds);
