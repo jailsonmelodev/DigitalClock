@@ -2,6 +2,7 @@
 
 body {
     background: linear-gradient(45deg, #290075, #5900ff) no-repeat;
+    width: 100vw;
     height: 100vh;
     display: flex;
     flex-flow: column nowrap;
@@ -12,7 +13,7 @@ body {
 }
 
 .digital-clock {
-    font-size: 4em;
+    font-size: 2em;
     font-weight: 700;
     color: white;
 }
@@ -26,11 +27,11 @@ body {
 }
 
 .display-date {
-    margin: 4rem;
+    margin: 4rem 0;
     font-size: 2em;
     background: #242424;
     color: white;
-    padding: .2em 1em;
+    padding: .2em .5em;
     border-radius: 1em;
     font-weight: 700;
     box-shadow: 0 0 .5em #7c019b;
