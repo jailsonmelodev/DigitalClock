@@ -1,7 +1,7 @@
 const displayClock = document.querySelector('.digital-clock');
 const displayDate = document.querySelector('.display-date');
 
-const formatUnit = unit => String(unit).length === 1 ? `0${unit}` : unit;
+const formatUnit = unit => `0${unit}`.slice(-2);
 
 const clockHTML = (hours, minutes, seconds) => `
     <span>${formatUnit(hours)}</span> :
