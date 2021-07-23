@@ -32,4 +32,5 @@ const clockTime = () => {
 
 }
 
+clockTime();
 setInterval(clockTime, 1000);
